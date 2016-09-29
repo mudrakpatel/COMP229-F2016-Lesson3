@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Web;
 using System.Web.Security;
@@ -11,6 +12,7 @@ namespace COMP229_F2016_Lesson3
     {
         protected void Application_Start(object sender, EventArgs e)
         {
+            Debug.WriteLine("App started...");
         }
     }
 }
